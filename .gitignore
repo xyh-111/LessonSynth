@@ -1,0 +1,39 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ===== Node / Frontend =====
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# ===== 敏感文件 =====
+.env
+.env.local
+.env.production
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ===== 临时文件 / 测试输出 =====
+*.log
+*.tmp
+api_response.json
+api_test_result.txt
+reviewer_result.txt
+sample_output.json
+test_e2e_log.txt
+test_api.py
+test_reviewer.py
+test_tools.py
+test_e2e.py

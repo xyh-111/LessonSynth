@@ -1,0 +1,23 @@
+# ===== 后端 Web 框架 =====
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+
+# ===== LangGraph 多智能体编排 =====
+langgraph==0.2.65
+langchain==0.3.14
+langchain-core==0.3.63
+langchain-openai==0.2.13
+langchain-community==0.3.14
+
+# ===== 文档解析（课本输入） =====
+pypdf==5.1.0
+python-docx==1.1.2
+Pillow==11.0.0
+
+# ===== 工具 & 配置 =====
+python-dotenv==1.0.1
+requests==2.32.3
+aiofiles==24.1.0
+httpx==0.28.1
+python-multipart==0.0.32
